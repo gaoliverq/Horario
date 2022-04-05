@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Qahiri&display=swap');
+
+body{
+    background-color: aqua;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.199);
+    width: 540px; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+section{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    border: 5px solid black;
+}
+
+div{
+    text-align: center;
+    padding: 10px
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    border-radius: 50%;
+    
+}
+
+img{
+    border: 2px solid black;
+}
+
+.digital {
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 510px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px; /* mesmo valor do height alinha no centro */
+    border-radius: 10px;
+    color: black;
+    font-size: 12rem;
+    font-family: 'Qahiri', sans-serif;
+    border: 5px solid black;
+}
+
